@@ -1,27 +1,29 @@
-# Super Market Billing Project
+# Pandas EDA Practice
 
-This is a simple billing system created in Python using Jupyter Notebook. The main goal of this project is to simulate a basic checkout process for a supermarket. Users can add products, enter quantities and prices, view totals with tax, and save receipts with timestamps.
+This repository contains notebooks for practicing Exploratory Data Analysis (EDA) using the Pandas library in Python. The goal is to build confidence in manipulating, cleaning, and analyzing datasets using practical examples.
 
-## Project Overview
+## Files Included
 
-The project allows users to:
+pandas.ipynb
 
-- Add multiple items to a bill
-- Automatically calculate totals and taxes
-- Generate and save receipts in `.txt` format
-- View detailed summaries of each transaction
+This notebook focuses on the core functionality of Pandas:
+	•	Reading and writing data (CSV, Excel)
+	- Filtering, sorting, and selecting data
+	- Handling missing values
+	- Grouping and aggregation
+	- Applying functions and transformations
 
-This project is a good example of how Python can be used to build a basic, text-based point-of-sale (POS) application. It's especially useful for students or anyone learning Python and wanting to apply it to real-world use cases.
+It is intended as a reference and practice tool for daily data analysis work.
 
-## Technologies Used
+This notebook includes worked-out solutions for typical EDA scenarios:
+	- Identifying patterns in data
+	- Cleaning inconsistencies
+	- Aggregating metrics for insights
+	- Writing efficient, readable Pandas code
 
-- Python 3
-- Jupyter Notebook
-- Built-in Python libraries like `datetime` and `os`
+It is suitable for interview prep and hands-on learning.
 
-## How to Use
-
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/vinay-polanki/Super-Market-Billing.git
-   cd Super-Market-Billing '''
+## Requirements
+	- Python 3.x
+	- Pandas
+	- Jupyter Notebook or any other environment that supports .ipynb files
